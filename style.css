@@ -1,0 +1,71 @@
+body {
+    background: #777;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    color: #777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    width: 960px;
+    }
+
+#header {
+    width: 960px;
+    background: #ebebeb;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#nav {
+    width: 960px;
+    background: #ebebeb;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#left {
+    float: left;
+    width: 495px;
+    height: 200px;
+    margin-bottom: 20px;
+    background: #ebebeb;
+    padding-top: 20px;
+}
+
+#right {
+    float: right;
+    width: 495px;
+    height: 200px;
+    margin-right: -40px;
+    margin-bottom: 20px;
+    background: #ebebeb;
+    padding-top: 20px;
+}
+
+/* I am not completely sure how to get the spacing right between the section and aside elements on the page. 
+Tried different floats, widths, margins, but it seems to either push it off or to the next line. Comments appreciated!*/
+
+#article {
+    background: #777;
+    width: 450px;
+    color: #ebebeb;
+    margin: 25px;
+    height: 120px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sub-sections {
+    background: #ebebeb;
+    color: #777;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    clear: both;
+    overflow: auto;
+    width: 960px;
+    background: #ebebeb;
+    padding: 20px;
+    margin-bottom: 20px;
+}
